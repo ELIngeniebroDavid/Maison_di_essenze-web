@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Maison di essenze</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" style="text-decoration: none;">
+                <h1 class="Empresa">Maison di essenze</h1>
+            </a>
+            
+            <button class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-list" id="nav-list">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="about.html">Acerca de nosotros</a></li>
+    <li><a href="catalogo.html">Catálogo</a></li>
+    <li><a href="redessociales.html">Redes Sociales</a></li>
+    <li>
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fas fa-sun"></i>
+        </button>
+    </li>
+</ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor-perfumes">
+            <section class="Perfume">
+                <img src="https://th.bing.com/th/id/OIP.FeKYZYx_cNxaR5fAe9rmCgHaHF?w=201&h=191&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Rassasi Hawas Ice" class="imagen-perfume">
+                <h3>RASSASI HAWAS ICE</h3>
+                <p>Un aroma que combina frescura intensa con un toque afrutado irresistible. perfecto para días calurosos, para entrenar o quienes aman oler limpio, vibrante y moderno.</p>
+                <button class="btn-precio" data-modal="modal-hawas">Ver Precio</button>
+                <div id="modal-hawas" class="modal-precio">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de RASSASI HAWAS ICE</h4>
+                        <p class="precio-final">5ml - $85MXN <br> 10ml - $135MXN</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Perfume">
+                <img src="https://odperfumes.com/wp-content/uploads/2025/02/Lattafa-Khamrah-EDP-Spray-3-4-Oz-For-Men_81080ddf-a440-40e6-bb7c-bdd9516b91ab.468a6e1a30e36e3f25bd9926392fb176.jpeg" alt="Khamrah Lattafa" class="imagen-perfume">
+                <h3>Lattafa Khamrah</h3>
+                <p>Un perfume dulce, cálido y especiado que impone presencia desde el primer spray. perfecto para noches y clima fresco.</p>
+                <button class="btn-precio" data-modal="modal-lattafa">Ver precio</button>
+                <div id="modal-lattafa" class="modal-precio">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de Khamrah Lattafa</h4>
+                        <p class="precio-final">5ml - $90MXN <br> 10ml - $150MXN</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Perfume">
+                <img src="https://th.bing.com/th/id/OIP.BIBSunKAV19h4ZrHhNh50QHaHa?w=199&h=199&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Oddysey Mandarinsky" class="imagen-perfume">
+                <h3>Oddysey mandarinsky</h3>
+                <p>Si te gustan los aromas cítricos y dulces, esta fragancia es un golpe de energía: mandarina brillante y caramelo suave.</p>
+                <button class="btn-precio" data-modal="modal-mandarinsky">Ver precio</button>
+                <div id="modal-mandarinsky" class="modal-precio">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de Mandarinsky</h4>
+                        <p class="precio-final">5ml - $85MXN <br> 10ml - $135MXN</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Perfume">
+                <img src="https://th.bing.com/th/id/OIP.ekKhyAU0jsRM7Vy7PmBl2AHaHa?w=205&h=205&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1" alt="Valentino Born in Roma" class="imagen-perfume">
+                <h3>Valentino Born in Roma</h3>
+                <p>Una fragancia moderna y amaderada que combina notas de salvia, vetiver ahumado y jengibre especiado.</p>
+                <button class="btn-precio" data-modal="modal-valentino">Ver precio</button>
+                <div id="modal-valentino" class="modal-precio">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de Valentino Born in roma</h4>
+                        <p class="precio-final">5ml - $85MXN <br> 10ml - $120MXN</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Perfume"> 
+                <img src="https://fimgs.net/mdimg/perfume-thumbs/375x500.55785.jpg" alt="Jean Paul Gaultier Le Beau" class="imagen-perfume">
+                <h3>Jean Paul Gaultier Le Beau</h3>
+                <p>Una fragancia juvenil, llamativa y atractiva; seductora con su nota de coco y una vainilla suave que encanta.</p>
+                <button class="btn-precio" data-modal="modal-JPG_lebeau">Ver Precio</button>
+                <div class="modal-precio" id="modal-JPG_lebeau">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de Jean Paul Gaultier Le beau</h4>
+                        <p class="precio-final">5ml - $150MXN <br> 10ml - $270MXN</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Perfume">
+                <img src="https://fimgs.net/mdimg/perfume-thumbs/375x500.66826.jpg" class="imagen-perfume" alt="Azzaro The Most Wanted">
+                <h3>Azzaro TMW Intense</h3>
+                <p>El aroma de la seducción extrema. Con notas de cardamomo, caramelo e iris, perfecto para citas nocturnas.</p>
+                <button class="btn-precio" data-modal="modal-Azzar_TMW_intense">Ver Precio</button>         
+                <div class="modal-precio" id="modal-Azzar_TMW_intense">
+                    <div class="modal-contenido">
+                        <span class="cerrar-modal">&times;</span>
+                        <h4>Precio de Azzaro TMW Intense</h4>
+                        <p class="precio-final">5ml - $105MXN <br> 10ml - $180MXN</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-logo">Maison di essenze</h2>
+                <p>Tu destino para descubrir aromas exclusivos a través de decants.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/maison_di_essenze?igsh=MTExNnZ4ODM0Mm5jdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1LDHAR3dry/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@maison.di.essenze" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Atención Directa</h3>
+                <p>Escríbenos por <strong>DM de Instagram</strong>.</p>
+                <a href="https://www.instagram.com/maison_di_essenze?igsh=MTExNnZ4ODM0Mm5jdw==" class="btn-footer">Enviar Mensaje</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Maison di essenze - Desarrollado por Rico Tovar Angel David</p>
+        </div>
+    </footer>
+    <script src="JS/actiones.js"></script>
+</body>
+</html>
